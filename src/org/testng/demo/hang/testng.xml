@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Xml suite">
+  <test name="My Run Test" preserve-order="false">
+    <parameter name="test001_name" value="Storm"></parameter>
+    <parameter name="test002_num1" value="10"></parameter>
+    <parameter name="test002_num2" value="25"></parameter>
+    <classes>
+      <class name="org.testng.demo.hang.RunTest">
+      </class>
+    </classes>
+  </test>
+</suite>
