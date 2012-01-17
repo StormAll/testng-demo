@@ -1,0 +1,1 @@
+This project is the demo for testng-eclipse issue #48.
