@@ -1,6 +1,5 @@
-This project is the demo for testng method level parameterized test.
-
-Example:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Xml suite">
 	<test name="My Run Test" preserve-order="false">
 		<classes>
@@ -22,5 +21,3 @@ Example:
 		</classes>
 	</test>
 </suite>
-
-The test method test001 will be called twice with the parameter "Storm Qi" and "Sean Guo".

@@ -1,4 +1,4 @@
-package org.testng.demo.hang;
+package org.testng.demo;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
